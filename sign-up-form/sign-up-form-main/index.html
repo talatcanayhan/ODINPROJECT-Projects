@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image-side">
+        <div class="logo"></div>
+        <p>Photo by Halie West from <a href="https://unsplash.com">Unsplash</a> </p>
+    </div>
+
+    <div class="form-side">
+        <h1>You will become viking after this. Just fill the form.</h1>
+        <form action="https://httpbin.org/post" method="post">
+            <div class="info-fields">
+                <div class="righthand-fields">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+
+                <div class="lefthand-fields">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name">
+
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="number" id="phone-number" name="phone-number">
+
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password">
+                </div>
+            </div>
+            <button id="submit-button" type="submit">Become Viking</button>
+        </form>
+
+        <p class="login-text">Already a viking? Click here to <a href="">log in.</a></p>
+    </div>
+</body>
+</html>

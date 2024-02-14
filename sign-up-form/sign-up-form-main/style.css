@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'norsefont';
+    src: url('assets/Norse-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display:flex;
+    background-color: aliceblue;
+}
+
+.image-side {
+    background: url(assets/trees.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    flex:40%;
+    text-align:center;
+    color:white;
+
+}
+
+.logo {
+    background-color: black;
+    background: url(assets/odin-lined.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width:100%;
+    height:30vh;
+}
+
+.form-side {
+    background-color:aliceblue;
+    flex: 60%;
+    height:100vh;
+    max-height: 1200px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+}
+
+.info-fields {
+    background-color: white;
+    height:40vh;
+    margin:5px;
+    display:flex;
+    box-shadow: 0 4px 2px -2px gray;
+
+}
+
+.righthand-fields, .lefthand-fields {
+    padding: 2%;
+    display:flex;
+    flex-direction: column;
+    
+}
+label {
+    font-family:'norsefont', monospace;
+    font-size: large;
+    margin-top: 50px;
+}
+input {
+    width:350px;
+    height:25px;
+    border-radius: 5px;
+}
+
+#submit-button {
+    font-family:'norsefont', monospace;
+    font-size:30px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    margin-left: 55px;
+    margin-top: 15px;
+    width: 15%;
+}
+
+.login-text {
+    margin-left: 55px;
+}
